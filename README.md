@@ -1,25 +1,27 @@
-## Εργαστήριο 3 – Συναρτήσεις Σημάτων Διακριτού Χρόνου
+# Lab 3 – Discrete-Time Signal Functions
 
-Αυτό το repository περιλαμβάνει την υλοποίηση θεμελιωδών συναρτήσεων διακριτού χρόνου σε Python, μαζί με τα αντίστοιχα γραφήματα για απεικόνιση και μελέτη. Οι συναρτήσεις αυτές αποτελούν τη βάση για την κατανόηση της ψηφιακής επεξεργασίας σήματος (DSP).
+This repository contains Python implementations of fundamental discrete-time signal functions, along with corresponding plots for visualization and analysis. These functions form the basis for understanding digital signal processing (DSP).
 
-### Περιεχόμενα
+## Contents
 
-- `monadiaia_wsi.py`: Υλοποίηση της μονάδας ώσης δ[n]
-- `monadiaki_vimatiki_akolouthia.py`: Υλοποίηση της μονάδας βήματος u[n]
-- `imitonoidis_akolouthia.py`: Ημιτονοειδής ακολουθία sin(ωn)
-- `sinitonoeidis_akolouthia.py`: Συνημιτονοειδής ακολουθία cos(ωn)
-- `ekthetiki_akolouthia.py`: Εκθετική ακολουθία (πραγματικό και φανταστικό μέρος)
-- `simata_python_vivliothiki.py`: Συγκεντρωτικός κώδικας που καλεί όλες τις παραπάνω συναρτήσεις
+### Python Scripts:
+- `monadiaia_wsi.py`: Implementation of the impulse signal δ[n].
+- `monadiaki_vimatiki_akolouthia.py`: Implementation of the step signal u[n].
+- `imitonoidis_akolouthia.py`: Sinusoidal sequence sin(ωn).
+- `sinitonoeidis_akolouthia.py`: Cosine sequence cos(ωn).
+- `ekthetiki_akolouthia.py`: Exponential sequence (real and imaginary parts).
+- `simata_python_vivliothiki.py`: A consolidated script that calls all the above functions.
 
-### Προϋποθέσεις
+---
 
-- Python 3.x
-- matplotlib
-- numpy
+## 📦 Requirements
 
-### Εκτέλεση
+To run the scripts, make sure you have Python 3.x installed along with the following libraries:
 
-Κάθε `.py` αρχείο μπορεί να εκτελεστεί ανεξάρτητα για να εμφανίσει το αντίστοιχο γράφημα της ακολουθίας. Π.χ.:
+- `numpy` – for numerical operations on signals.
+- `matplotlib` – for plotting and visualizing the signals.
+
+To install the necessary libraries, run:
 
 ```bash
-python monadiaia_wsi.py
+pip install numpy matplotlib
